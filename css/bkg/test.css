@@ -1,0 +1,554 @@
+/*
+Bases
+Header
+Entete
+Objectifs
+Portfolio
+  Projets Grib
+  Testimonie
+CV
+About
+Contact
+Footer
+@media
+*/
+
+.distance{
+  margin-bottom: 5vh;
+}
+#header_img_dark, #dark_photo_emu1, #dark_photo_emu2, #dark_photo_isfsc{
+  display: none;
+}
+/*Entete*/
+.cv .entete{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-image: url(bkg/cv.png);
+}
+.about .entete{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-image: url(bkg/about.png);
+}
+.about .entete .row:first-child, .cv .entete .row:first-child{
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  text-align: center;
+}
+.entete .row h3{
+  margin: 1vh;
+}
+.entete .row h1{
+  margin: 2vh;
+}
+.bkg .about, .cv_skill, .cv_learning{
+  padding: 5vh 0;
+}
+.projet_emu1 .entete{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  background-image: url(bkg/projet_emu1.jpg);
+}
+.projet_emu2 .entete{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  background-image: url(bkg/projet_emu2.jpg);
+}
+.projet_isfscquoi .entete{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  background-image: url(bkg/projet_isfscquoi.jpg);
+}
+.lab{
+  background: linear-gradient(45deg, var(--color2), var(--color1));
+}
+.lab .entete{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-image: url(bkg/lab.png);
+}
+.lab .entete .row:first-child{
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+  padding-bottom: 5vh;
+}
+.projets .entete{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-image: url(bkg/projets.png);
+}
+.projets .entete .row:first-child{
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+  padding-bottom: 5vh;
+}
+.vie{
+  background: linear-gradient(45deg, var(--color2), var(--color1));
+}
+.vie .entete{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-image: url(bkg/vie.png);
+}
+.vie .entete .row:first-child{
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+  padding-bottom: 5vh;
+}
+
+/*Objectifs*/
+.objectifs{
+  margin: 0 auto;
+  padding: 5vh 0 10vh;
+}
+.objectifs .title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.objectifs .title h2{
+  text-align: center;
+}
+.objectifs .title i{
+  margin-top: -3vh;
+}
+
+/*Portfolio*/
+.projet{
+  width: 100%;
+  padding: 10vh 0;
+}
+.projet_emu1 .entete h1, .projet_emu2 .entete h1, .projet_isfscquoi .entete h1{
+  padding: 10vh 5% 30vh;
+  text-align: center;
+}
+.projet_text1{
+  width: 100%;
+  padding: 5vh 0;
+}
+.client{
+  flex-flow: column;
+  align-items: left;
+}
+.intro, .goals, .challenge, .solution, .tasks, .client, .equipes{
+  margin: 5vh 0;
+}
+.client{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.flipbook{
+  width: 100%;
+  height: 60vh;
+  margin-bottom: 5vh;
+}
+.projet_emu1, .projet_emu2, .projet_isfscquoi{
+  height: 70vh;
+  width: 100%;
+}
+
+/*Portfolio-Projets Grib*/
+
+.projet .content, #items .content{
+  margin: 5vh 5%;
+}
+.projet .content .details, #items .content .details{
+  display: flex;
+  margin: 2vh 0;
+}
+.projet .content .details i, #items .content .details i{
+  margin-right: 5%;
+}
+.projet .content .buttons, #items .content .buttons{
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  margin: 2vh 0;
+}
+.projet .content .buttons .button, #items .content .buttons .button{
+  margin: 1vh 0;
+}
+.projet .portfolio_genevieve, #items .portfolio_genevieve{
+  width:  100%;
+  background-image: url(bkg/projet/portfolio_genevieve.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projet .tfe, #items .tfe{
+  width:  100%;
+  background-image: url(bkg/projet/tfe.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projet .foret_nourriciere, #items .foret_nourriciere{
+  width:  100%;
+  background-image: url(bkg/projet/foret_nourriciere.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projet .eighttrust, #items .eighttrust{
+  width:  100%;
+  background-image: url(bkg/projet/8trust.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projet .trackz, #items .trackz{
+  width:  100%;
+  background-image: url(bkg/projet/trackz.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projet .isfsck, #items .isfsck{
+  width:  100%;
+  background-image: url(bkg/projet/isfsck.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projet .endo, #items .endo{
+  width:  100%;
+  background-image: url(bkg/projet/endo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projet .kanal, #items .kanal{
+  width:  100%;
+  background-image: url(bkg/projet/kanal.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projets_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projets_button .button{
+  padding: 1em 10em;
+  margin-top: 1vh;
+}
+
+/*CV*/
+.cv_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5vh;
+}
+#cv_input:checked ~ .dropdown-content{
+  display: block;
+}
+#cv_input, .cv_toggle{
+  font-family: sans-serif;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  z-index: 10;
+}
+#cv_input{
+  opacity: 0;
+}
+.cv_toggle{
+  pointer-events: none;
+  transition: 0.5s;
+  text-align: center;
+  line-height: 50px;
+  font-size: 5rem;
+}
+#cv_input:checked ~ .cv_toggle{
+  transform: rotate(225deg);
+}
+.cv_skill .title, .cv_learning .title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.cv_skill .title i, .cv_learning .title i{
+  margin-top: -2vh;
+}
+.cv_skill .row, .cv_learning .row{
+  justify-content: center;
+  padding-bottom: 5vh;
+}
+.cv_skill .competences, .cv_learning .competences{
+  width: 95%;
+  margin: 2vh 0;
+}
+.liste{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2vh 0;
+}
+.liste img{
+  width: 15%;
+  height: auto;
+  margin-right: 1vh;
+}
+.liste i{
+  margin-right: 1vh;
+}
+.liste .contenu{
+  width: 100%;
+}
+
+.certificat_title. .certificat .logiciel i{
+  display: flex;
+  align-items: center;
+  margin: 0 auto 2vh;
+}
+.certificat_title img{
+  width: 50px;
+  height: auto;
+  margin: 2vh 1vh 2vh 0;
+}
+.certificat_title a{
+  margin-right: 5vh;
+}
+.certificat_a{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#language .row .col-lg-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#certificate a:hover{
+  text-decoration: underline;
+}
+#certificate p{
+  margin: 1vh 0;
+}
+.cv_learning .bordure{
+  border-left: solid 1px;
+}
+.cv_learning .bordure .belgique .details, .cv_learning .bordure .canada .details{
+  margin-bottom: 5vh;
+}
+.cv_learning .bordure .belgique img, .cv_learning .bordure .canada img{
+  width: 5%;
+  height: auto;
+}
+.cv_learning .belgique .date, .cv_learning .canada .date{
+  margin-left: 5%;
+}
+.belgique .content, .canada .content, .certificat .content{
+  margin: 2vh 0 10vh 15%;
+}
+.belgique .content h3, .canada .content h3{
+  margin: 2vh 0;
+}
+.belgique .content ul li p, .canada .content ul li p{
+  margin: 0;
+}
+.belgique .content .logiciel, .canada .content .logiciel {
+  display: inline;
+}
+.belgique .content .logiciel img, .canada .content .logiciel img, .certificat .logiciel img{
+  width: 50px;
+  height: auto;
+  margin: 2vh 0;
+}
+.belgique .content .logiciel i, .canada .content .logiciel i, .certificat .logiciel i{
+  margin: 2vh 0;
+}
+/*About*/
+.about img, .myself img{
+  width: auto;
+  height: 50px;
+}
+.code_text{
+  margin-bottom: 5vh;
+}
+.about .fact{
+  margin: 10vh auto 5vh;
+}
+.myself .container{
+  margin: 10vh auto;
+}
+.me_contacter{
+  margin: 5vh;
+}
+/*Lab*/
+
+.works{
+	padding: 5%;
+}
+.works-category ul{
+	margin: 0;
+	padding: 0;
+	clear: both;
+	text-align: center;
+}
+.works-category ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0 10px;
+}
+.works-category ul li a{
+	color: #ffffff;
+	background-color: rgba(0,0,0,0.3);
+	padding: 3px 16px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.all-works{
+	margin-top: 2%;
+	padding: 0 4%;
+}
+.work-one{
+	width: 30%;
+	float: left;
+	height: auto;
+	background-color: #c4c9d1;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+	position: relative;
+}
+.work-one a{
+	text-decoration: none;
+}
+.work-one img{
+	width: 100%;
+	height: 170px;
+}
+.work-one:hover h4, .work-one:hover p{
+	opacity: 1;
+}
+.filter-hide{
+	display: none;
+}
+
+/*Footer*/
+.copyright{
+  width: 100%;
+  height: 5vh;
+  margin: 1vh 0;
+}
+footer .social-buttons a{
+  align-items: center;
+  justify-content: center;
+}
+
+/*@media*/
+@media screen and (max-width: 800px) {
+  body{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  .row{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  header .container .navbar a img{
+    width: auto;
+    height: 50px;
+  }
+  header .container .navbar ul{
+    display: block;
+  }
+  header .container .navbar ul li{
+    margin: 10px 0;
+  }
+  header .container .navbar ul li a h3{
+    margin-bottom: 0;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+ .footer_mobile ul{
+    margin: 2vh auto;
+  }
+  .footer_mobile .footer_contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cv_skill .title i, .cv_learning .title i.fas, .objectifs .title i{
+    display: none;
+  }
+  .projet .row{
+    margin-bottom: 0;
+  }
+  .projet .row .card{
+    margin-bottom: 5vh;
+  }
+  .myself .me_contacter{
+    display: none;
+  }
+  .projet .card2 .face.face2 .content .buttons{
+    margin: 0 auto 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-item {
+    width: 400px;
+    height: 400px;
+  }
+  .certificat_a{
+    display: inline;
+    justify-content: space-between;
+  }
+
+  .objectifs_contact{
+    margin: 5vh auto 0;
+  }
+  .objectifs_contact.last{
+    margin: 5vh auto;
+  }
+}

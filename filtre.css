@@ -1,0 +1,41 @@
+#filter, ul#items li{
+	width:100%;
+	margin: 5vh auto;
+}
+ul#filter div{
+	text-align: center;
+}
+ul#filter div:last-child {
+	margin-bottom: 5vh;
+}
+ul#filter li, ul#items{
+	list-style: none;
+}
+ul#filter a {
+	text-decoration: none;
+}
+ul#filter a:hover{
+	text-decoration: underline var(--color1);
+}
+.row.bases, .row.boutons, .row.menus, .row.background, .row.cartes, .row.animations, .row.autres{
+	height: 40vh;
+	margin-bottom: 5vh;
+}
+.lab_img{
+  background-image: linear-gradient(45deg, var(--color2), var(--color1));
+	width: 100%;
+	height: auto;
+}
+#items h2{
+	text-align: center;
+	margin: 5vh 0 0;
+}
+#items .row .col-lg-6 p{
+	text-align: center;
+}
+#items li{
+  margin: 10vh 0;
+}
+#items .content .details{
+	display: flex;
+}

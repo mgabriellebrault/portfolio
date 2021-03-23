@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'yasmin';
+  src: url("Yasmin.eot");
+  src: url("Yasmin.eot?#iefix") format("embedded-opentype"),
+    url("Yasmin.otf") format("opentype"),
+    url("Yasmin.svg") format("svg"),
+    url("Yasmin.ttf") format("truetype"),
+    url("Yasmin.woff") format("woff"),
+    url("Yasmin.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'trispace';
+  src: url("Trispace-Extended.eot");
+  src: url("Trispace-Extended.eot?#iefix") format("embedded-opentype"),
+    url("Trispace-Extended.otf") format("opentype"),
+    url("Trispace-Extended.svg") format("svg"),
+    url("Trispace-Extended.ttf") format("truetype"),
+    url("Trispace-Extended.woff") format("woff"),
+    url("Trispace-Extended.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

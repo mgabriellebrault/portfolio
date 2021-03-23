@@ -1,0 +1,779 @@
+@charset "UTF-8";
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #EDEDED;
+  color: #0B0100;
+  font-family: 'Lexend Deca', sans-serif;
+  font-stretch: extra-expanded;
+  overflow-x: hidden;
+  -webkit-transition: color ease-out 250ms;
+  transition: color ease-out 250ms;
+}
+
+body h1 {
+  font-size: 3rem;
+  font-family: 'Lexend Giga', sans-serif;
+  color: #0B0100;
+}
+
+body h2 {
+  font-size: 2.5rem;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #0B0100;
+}
+
+body p {
+  font-size: 1.8rem;
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 0;
+  color: #0B0100;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:before, body a:-webkit-any-link {
+  color: inherit;
+}
+
+body a:hover {
+  -webkit-text-decoration: underline #0B0100;
+          text-decoration: underline #0B0100;
+}
+
+body img {
+  width: 100%;
+  height: auto;
+}
+
+body .bkg {
+  background-image: linear-gradient(45deg, #93B4AD, #77A99E);
+}
+
+body .entete {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 20vh 0;
+}
+
+body .entete.row:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 50vh;
+}
+
+body .text {
+  text-align: center;
+  background-color: rgba(237, 237, 237, 0.7);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+body .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+body .title h2 {
+  margin: 5vh 5%;
+}
+
+/*Header*/
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: rgba(237, 237, 237, 0.7);
+  min-height: 10vh;
+}
+
+header .container .navbar {
+  margin: 0;
+}
+
+header .container .navbar a img {
+  width: auto;
+  height: 80px;
+}
+
+header .container .navbar .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.toggle {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  background-color: #93B4AD;
+  border-radius: 9999px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.toggle::before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#EDEDED), to(#EDEDED));
+  background-image: linear-gradient(to top left, #EDEDED, #EDEDED);
+  border-radius: 50%;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+
+.toggle::after {
+  content: "";
+  position: absolute;
+  bottom: -2.1rem;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 45%;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#77A99E), to(#0B0100));
+  background-image: linear-gradient(to bottom left, #77A99E, #0B0100);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.darktoggle.clicked .toggle::before {
+  left: 1.5rem;
+}
+
+.darktoggle.clicked .toggle::after {
+  bottom: -1.8rem;
+}
+
+/*Index*/
+.index .entete {
+  padding: 20vh 0;
+  background-image: url(bkg/index.jpg);
+}
+
+.index button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding: 5px 30px 15px;
+  color: #0B0100;
+  background-image: linear-gradient(45deg, #93B4AD, #77A99E);
+  border: none;
+  border-radius: 15px;
+}
+
+/*Communication Outils*/
+.communication_outils {
+  padding: 10vh 0;
+}
+
+.communication_outils .container .row.title {
+  display: block;
+  text-align: center;
+}
+
+.communication_outils .container .row.title h2 {
+  margin: 0;
+}
+
+.communication_outils .container .row.title p {
+  margin-bottom: 5vh;
+}
+
+.communication_outils .container .row.outils {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.communication_outils .container .row img {
+  margin: 2vh 0;
+  width: 50px;
+  height: auto;
+}
+
+/* Projets */
+.meilleurs_projets .row {
+  margin: 10vh 0;
+}
+
+.meilleurs_projets h2 {
+  text-align: center;
+  padding: 15px 30px;
+}
+
+.meilleurs_projets .content .buttons {
+  margin: 5vh 10%;
+  color: #0B0100;
+  background-image: linear-gradient(45deg, #93B4AD, #77A99E);
+  border: none;
+  border-radius: 15px;
+}
+
+.meilleurs_projets .autres_projets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.meilleurs_projets .autres_projets a {
+  margin: 5vh 10%;
+  color: #0B0100;
+  border: 3px solid #93B4AD;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.meilleurs_projets .foret_nourriciere {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(bkg/nourriciere.jpg);
+  /*projet_nourriciere.jpg*/
+}
+
+.meilleurs_projets .trackz {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(bkg/trackz.png);
+}
+
+.meilleurs_projets .isfsck {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(bkg/isfsck.png);
+}
+
+.list_projets {
+  margin: 5vh 0 0;
+}
+
+.list_projets .portfolio_genevieve {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(bkg/genevieve.png);
+}
+
+.list_projets .tfe {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(bkg/tfe.png);
+}
+
+.list_projets .isfsck {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(bkg/isfsck.jpg);
+}
+
+.list_projets .endo {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(bkg/endo.jpg);
+}
+
+.list_projets .kanal {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(bkg/kanal.jpg);
+}
+
+.list_projets .row {
+  margin: 10vh 0;
+}
+
+.list_projets h2 {
+  text-align: center;
+  padding: 15px 30px;
+}
+
+.list_projets .content .buttons {
+  margin: 5vh 10%;
+  color: #0B0100;
+  background-image: linear-gradient(45deg, #93B4AD, #77A99E);
+  border: none;
+  border-radius: 15px;
+}
+
+.projets .entete {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  background-image: url(bkg/projets.jpg);
+}
+
+.projets .entete .row:first-child {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 30vh;
+  padding-bottom: 5vh;
+}
+
+.filter_projets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: linear-gradient(45deg, #93B4AD, #77A99E);
+  padding: 3vh 0;
+  text-align: center;
+  display: none;
+}
+
+.filter_projets ul li {
+  list-style: none;
+  margin: 1vh 0;
+}
+
+.kanal .entete {
+  background-image: url(bkg/kanal.jpg);
+  min-height: 80vh;
+}
+
+.endo .entete {
+  background-image: url(bkg/endo.jpg);
+  min-height: 80vh;
+}
+
+.isfsck .entete {
+  background-image: url(bkg/isfsck.jpg);
+  min-height: 80vh;
+}
+
+/*Objectifs*/
+.objectifs {
+  margin: 0 auto;
+  padding: 5vh 0 10vh;
+}
+
+.objectifs p {
+  margin: 2vh 0;
+}
+
+/*CV*/
+.cv button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding: 5px 30px 15px;
+  color: #0B0100;
+  background-image: linear-gradient(45deg, #93B4AD, #77A99E);
+  border: none;
+  border-radius: 30px;
+}
+
+.cv .entete {
+  background-image: url(bkg/cv.jpg);
+}
+
+/* Competences*/
+.cv_skill {
+  padding: 5vh 0 10vh;
+}
+
+.cv_skill .content {
+  text-align: center;
+}
+
+.cv_skill .content img {
+  margin: 2vh 0;
+  width: 50px;
+  height: auto;
+}
+
+/* Expériences */
+.cv_learning {
+  padding: 5vh 0 10vh;
+}
+
+.cv_learning h2.competences {
+  text-align: center;
+  margin: 5vh 0;
+}
+
+.cv_learning .work_with {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cv_learning .work_with img {
+  margin: 2vh 0;
+  width: 50px;
+  height: auto;
+}
+
+.cv_learning .content p.agences {
+  margin: 30px;
+}
+
+.cv_learning .content .details p {
+  margin-left: 60px;
+}
+
+.cv_learning .projets_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cv_learning .projets_button a {
+  padding: 5px 30px 15px;
+  color: #0B0100;
+  border: 3px solid #93B4AD;
+  border-radius: 10px;
+  margin: 5vh 5%;
+}
+
+.ancienne_vie .secteurs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5vh 0;
+}
+
+.ancienne_vie .work, .ancienne_vie .cours {
+  display: block;
+}
+
+.ancienne_vie .ligne {
+  border-left: 2px solid #93B4AD;
+}
+
+.ancienne_vie .ligne .pays {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 1%;
+}
+
+.ancienne_vie .ligne .pays:nth-child(2) {
+  margin: 5vh 1%;
+}
+
+.ancienne_vie .ligne .pays img {
+  margin: 2vh 0;
+  width: 50px;
+  height: auto;
+}
+
+.ancienne_vie .ligne .pays h2 {
+  margin-left: 10px;
+}
+
+.ancienne_vie .ligne h2.date {
+  margin: 5vh 40px;
+}
+
+.ancienne_vie .ligne p.ou_quoi {
+  margin: 3vh 0;
+  text-align: center;
+}
+
+.ancienne_vie .ligne p.todolist {
+  margin: 2vh 0;
+  text-align: center;
+}
+
+.vie .entete {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  background-image: url(bkg/vie.jpg);
+}
+
+.vie .entete .row:first-child {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 30vh;
+  padding-bottom: 5vh;
+}
+
+/*About*/
+.about .entete {
+  background-image: url(bkg/about.jpg);
+}
+
+.social_network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5vh 0;
+}
+
+.social-buttons a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 0 8px;
+  font-size: 18px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.social-buttons a::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #77A99E, #93B4AD);
+  z-index: -1;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover::before {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.social-buttons a:hover i {
+  -webkit-transform: scale(2.2);
+          transform: scale(2.2);
+}
+
+.social-buttons a i {
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.icon_code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.about_row {
+  margin: 5vh 0 0;
+}
+
+.qui {
+  padding: 5vh 0 10vh;
+}
+
+.facts {
+  padding-top: 5vh;
+}
+
+/*Footer*/
+footer {
+  padding-top: 10vh;
+}
+
+.btn_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 5%;
+  bottom: 10vh;
+  text-align: center;
+  background-color: #0B0100;
+  border-radius: 10px;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.btn_contact a i {
+  color: #EDEDED;
+}
+
+.copyright h2 {
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+  margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  i {
+    display: none !important;
+  }
+  header h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  header .container .navbar .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .wrapper {
+    float: right;
+  }
+  .ancienne_vie h1 {
+    text-align: center;
+  }
+  .ancienne_vie p.ou_quoi {
+    margin: 3vh 10% !important;
+  }
+  .ancienne_vie p.todolist {
+    margin: 2vh 10% !important;
+  }
+  .social-buttons a i {
+    display: block !important;
+  }
+  footer .btn_contact {
+    bottom: 2vh;
+  }
+  footer .btn_contact i {
+    display: inline-block !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

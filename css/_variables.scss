@@ -1,0 +1,48 @@
+$bkg : #EDEDED;
+$text : #0B0100;
+$colorUn: #93B4AD;
+$colorDeux : #77A99E;
+$bkg-opacity: rgba($bkg, 0.7);
+
+@mixin flex($justify){
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+}
+@mixin flexBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+@mixin enteteBkg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+@mixin bkg{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+@mixin bkgColor{
+   background-image: linear-gradient(45deg, $colorUn, $colorDeux);
+}
+@mixin entetePadding{
+    padding: 20vh 0;
+}
+@mixin sectionPadding{
+    padding: 5vh 0 10vh;
+}
+@mixin paddingBtn{
+    padding: 5px 30px 15px;
+}
+@mixin img{
+    margin: 2vh 0;
+    width: 50px;
+    height: auto;
+}
+
