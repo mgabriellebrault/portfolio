@@ -25,7 +25,7 @@
     <div class="col-md-6"></div>
     <div class="col-md-6 col-xs-12">
       <div class="text">
-        <div>
+        <div class="titre">
           <h2>But</h2>
           <div class="ligne"></div>
         </div>
@@ -36,7 +36,7 @@
   <div class="row">
     <div class="col-md-6 col-xs-12">
       <div class="text">
-        <div>
+        <div class="titre">
           <h2>Challenge</h2>
           <div class="ligne"></div>
         </div>
@@ -50,7 +50,7 @@
     <div class="col-md-6"></div>
     <div class="col-md-6 col-xs-12">
       <div class="text">
-        <div>
+        <div class="titre">
           <h2>Solutions</h2>
           <div class="ligne"></div>
         </div>
@@ -61,7 +61,7 @@
   <div class="row">
     <div class="col-md-6 col-xs-12">
       <div class="text">
-          <div>
+          <div class="titre">
             <h2>Taches et travail</h2>
             <div class="ligne"></div>
           </div>
@@ -75,7 +75,7 @@
     <div class="col-md-6"></div>
     <div class="col-md-6 col-xs-12">
       <div class="text">
-        <div>
+        <div class="titre">
           <h2>Equipes</h2>
           <div class="ligne"></div>
         </div>

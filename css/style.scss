@@ -322,6 +322,9 @@ header {
   .entete{
     background-image: url(bkg/isfsck_projets.jpg);
     min-height: 80vh;
+    .text{
+      text-align: center;
+    }
   }
   .bkg_isfsck{
     background-image: url(bkg/isfscquoi_bande.png);
@@ -331,10 +334,24 @@ header {
   .row{
     @include sectionPadding;
   }
-  .text p{
+  .text{
     text-align: left;
     margin: 2vh 0;
+    .titre{
+      @include flex(space-between);
+      margin-bottom: 2vh;
+      h2{
+        margin: 0!important;
+      }
+    }
   }
+  .ligne{
+    height: 3px;
+    width: 40%;
+    background-color: $colorUn;
+  }
+
+
 }
 
 /*Objectifs*/

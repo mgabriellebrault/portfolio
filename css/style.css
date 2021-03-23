@@ -1,4 +1,10 @@
 @charset "UTF-8";
+/*  --bkg: #EDEDED;
+  --text: #0B0100;
+  --color1: #93B4AD;
+  --color2: #77A99E;
+  --button: rgba(147,180,173,0.5);
+*/
 html {
   width: 100%;
   margin: 0;
@@ -483,6 +489,10 @@ header .darktoggle.clicked .toggle::after {
   min-height: 80vh;
 }
 
+.isfsck .entete .text {
+  text-align: center;
+}
+
 .isfsck .bkg_isfsck {
   background-image: url(bkg/isfscquoi_bande.png);
   background-size: contain;
@@ -493,9 +503,32 @@ header .darktoggle.clicked .toggle::after {
   padding: 5vh 0 10vh;
 }
 
-.isfsck .text p {
+.isfsck .text {
   text-align: left;
   margin: 2vh 0;
+}
+
+.isfsck .text .titre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2vh;
+}
+
+.isfsck .text .titre h2 {
+  margin: 0 !important;
+}
+
+.isfsck .ligne {
+  height: 3px;
+  width: 40%;
+  background-color: #93B4AD;
 }
 
 /*Objectifs*/

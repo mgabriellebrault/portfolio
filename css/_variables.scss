@@ -4,6 +4,13 @@ $colorUn: #93B4AD;
 $colorDeux : #77A99E;
 $bkg-opacity: rgba($bkg, 0.7);
 
+/*  --bkg: #EDEDED;
+  --text: #0B0100;
+  --color1: #93B4AD;
+  --color2: #77A99E;
+  --button: rgba(147,180,173,0.5);
+*/
+
 @mixin flex($justify){
     display: flex;
     align-items: center;
