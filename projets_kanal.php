@@ -45,9 +45,8 @@
       </div>
       <div class="col-md-6"></div>
     </div>
+    <img src="images/projets/kanal_website.png" alt="Kanal Website">
   </div>
-
-  <img src="images/projets/kanal_website.png" alt="Kanal Website">
   <hr class="ligne">
 
   <div class="ligne_right">
