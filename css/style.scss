@@ -377,18 +377,6 @@ header {
     background-image: url(bkg/cv.jpg);
   }
 }
-
-/* Competences*/
-.cv_skill{
-  @include sectionPadding;
-  .content{
-    text-align: center;
-  }
-  .content img{
-    @include img;
-  }
-}
-
 /* Expériences */
 .cv_learning{
   @include sectionPadding;
@@ -415,7 +403,7 @@ header {
     a{
       @include paddingBtn;
       color: $text;
-      border: 3px solid $colorUn;
+      border: 3px solid $text;
       border-radius: 10px;
       margin: 5vh 5%;
     }
@@ -469,6 +457,17 @@ header {
       height: 30vh;
       padding-bottom: 5vh;
     }
+  }
+}
+
+/* Competences*/
+.cv_skill{
+  @include sectionPadding;
+  .content{
+    text-align: center;
+  }
+  .content img{
+    @include img;
   }
 }
 

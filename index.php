@@ -13,7 +13,10 @@
   </div>
 </div></div></section>
 
+
+
 <!-- Communication outils -->
+<?php include 'images/waves-white_bkg.php'?>
 <section class="communication_outils bkg"><div class="container">
   <div class="row title">
     <h2>Trouvons l'outil idéale</h2>
@@ -23,6 +26,7 @@
 </div></section>
 
 <!-- Projets -->
+<?php include 'images/waves-white.php'?>
 <section class="meilleurs_projets"><div class="container">
   <div class="row"><?php include 'modules/projet1.php'?></div>
   <div class="row"><?php include 'modules/projet2.php'?></div>
@@ -30,6 +34,7 @@
 </div></section>
 
 <!-- Objectifs professionnelles -->
+<?php include 'images/waves-white_bkg.php'?>
 <section class="objectifs bkg"><div class="container">
   <div class="row title">
     <h2>Objectifs professionnelles 2021</h2>
@@ -50,32 +55,11 @@
       <button><a class="button" href="cv2020.pdf" id="download_cv" download="CV_MarylineBrault.pdf"><h2>Version PDF</h2></a></button>
     </div>
   </div>
-  </div></div></section>
-
-<!-- Competences -->
-<section class="cv_skill bkg"><div class="container">
-  <div class="row title">
-      <i class="fas fa-dumbbell fa-3x"></i>
-      <h2>Compétences</h2>
-  </div>
-  <div class="row about_row">
-    <div class="col-md-6 col-xs-12">
-    <p class="text-center">Outils pratiques utilisés</p>
-      <div class="row content"><?php include 'modules/competences_outils.php'?></div>
-    </div>
-    <div class="col-md-6"></div>
-  </div>
-  <div class="row about_row">
-    <div class="col-md-6"></div>
-    <div class="col-md-6 col-xs-12">
-      <p class="text-center">Outils Organisation</p>
-      <div class="row content"><?php include 'modules/competences_organisation.php'?></div>
-    </div>
-  </div>
-</div></section>
+</div></div></section>
 
 <!-- Expériences -->
-<section class="cv_learning"><div class="container">
+<?php include 'images/waves-white_bkg.php'?>
+<section class="cv_learning bkg"><div class="container">
   <div class="row title">
       <h2>Web developpeuse</h2>
       <i class="fas fa-map-marked-alt fa-3x"></i>
@@ -105,7 +89,33 @@
   </div>
 </div></section>
 
+<!-- Competences -->
+<?php include 'images/waves-white.php'?>
+<section class="cv_skill"><div class="container">
+  <div class="row title">
+      <i class="fas fa-dumbbell fa-3x"></i>
+      <h2>Compétences</h2>
+  </div>
+  <div class="row about_row">
+    <div class="col-md-6 col-xs-12">
+    <p class="text-center">Outils pratiques utilisés</p>
+      <div class="row content"><?php include 'modules/competences_outils.php'?></div>
+    </div>
+    <div class="col-md-6"></div>
+  </div>
+  <div class="row about_row">
+    <div class="col-md-6"></div>
+    <div class="col-md-6 col-xs-12">
+      <p class="text-center">Outils Organisation</p>
+      <div class="row content"><?php include 'modules/competences_organisation.php'?></div>
+    </div>
+  </div>
+</div></section>
+
+
+
 <!-- Objectifs d'apprentissages -->
+<?php include 'images/waves-white_bkg.php'?>
 <section class="objectifs bkg"><div class="container">
   <div class="row title">
     <i class="fas fa-clipboard-list fa-3x"></i>
@@ -135,6 +145,7 @@
 </div></div></section>
 
 <!-- Qui suis-je -->
+<?php include 'images/waves-white_bkg.php'?>
 <section class="qui bkg"><div class="container">
   <div class="row title">
     <i class="fas fa-heart fa-3x"></i>
@@ -144,7 +155,7 @@
 </div></section>
 
 <!-- Facts -->
-
+<?php include 'images/waves-white.php'?>
 <section class="facts"><div class="container">
   <div class="row title">
     <h2>Fait interessant sur moi</h2>
