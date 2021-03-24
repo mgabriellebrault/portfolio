@@ -13,8 +13,6 @@
   </div>
 </div></div></section>
 
-
-
 <!-- Communication outils -->
 <?php include 'images/waves-white_bkg.php'?>
 <section class="communication_outils bkg"><div class="container">

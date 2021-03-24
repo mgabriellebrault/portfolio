@@ -1,4 +1,4 @@
-<div class="col-lg-6 isfsck"></div>
+<div class="col-lg-6 projet_isfsck"></div>
 <div class="col-lg-6 col-xs-12 ">
   <div class="content">
     <h2>ISFSC Quoi?</h2>

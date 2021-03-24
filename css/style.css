@@ -295,7 +295,7 @@ header .darktoggle.clicked .toggle::after {
   width: 100%;
 }
 
-.meilleurs_projets .foret_nourriciere {
+.meilleurs_projets .projet_foret_nourriciere {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -304,7 +304,7 @@ header .darktoggle.clicked .toggle::after {
   /*projet_nourriciere.jpg*/
 }
 
-.meilleurs_projets .trackz {
+.meilleurs_projets .projet_trackz {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -312,7 +312,7 @@ header .darktoggle.clicked .toggle::after {
   background-image: url(bkg/trackz.png);
 }
 
-.meilleurs_projets .isfsck {
+.meilleurs_projets .projet_isfsck {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -324,7 +324,7 @@ header .darktoggle.clicked .toggle::after {
   margin: 5vh 0 0;
 }
 
-.list_projets .portfolio_genevieve {
+.list_projets .projet_genevieve {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -332,7 +332,7 @@ header .darktoggle.clicked .toggle::after {
   background-image: url(bkg/genevieve.png);
 }
 
-.list_projets .tfe {
+.list_projets .projet_tfe {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -340,7 +340,7 @@ header .darktoggle.clicked .toggle::after {
   background-image: url(bkg/tfe.png);
 }
 
-.list_projets .trackz {
+.list_projets .projet_trackz {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -348,7 +348,7 @@ header .darktoggle.clicked .toggle::after {
   background-image: url(bkg/trackz.jpg);
 }
 
-.list_projets .isfsck {
+.list_projets .projet_isfsck {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -356,7 +356,7 @@ header .darktoggle.clicked .toggle::after {
   background-image: url(bkg/isfsck.jpg);
 }
 
-.list_projets .endo {
+.list_projets .projet_endo {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -364,7 +364,7 @@ header .darktoggle.clicked .toggle::after {
   background-image: url(bkg/endo.jpg);
 }
 
-.list_projets .kanal {
+.list_projets .projet_kanal {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -436,7 +436,7 @@ header .darktoggle.clicked .toggle::after {
 }
 
 .kanal .row {
-  padding: 5vh 0 10vh;
+  padding: 5vh 0 20vh;
 }
 
 .kanal .ligne_left {
@@ -474,7 +474,7 @@ header .darktoggle.clicked .toggle::after {
 }
 
 .endo .row {
-  padding: 5vh 0 10vh;
+  padding: 5vh 0 20vh;
 }
 
 .endo .ligne {
@@ -500,7 +500,7 @@ header .darktoggle.clicked .toggle::after {
 }
 
 .isfsck .row {
-  padding: 5vh 0 10vh;
+  padding: 5vh 0 20vh;
 }
 
 .isfsck .text {
@@ -531,10 +531,68 @@ header .darktoggle.clicked .toggle::after {
   background-color: #93B4AD;
 }
 
+.trackz {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.trackz .video-header {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.trackz .video-header, .trackz .video-header video, .trackz .video-header .viewport-header {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.trackz .video-header video {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.trackz .video-header .viewport-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.trackz section {
+  background: white;
+  position: relative;
+  padding: 1rem;
+  margin-top: 100vh;
+}
+
+.trackz section::before {
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: -100vh;
+}
+
+.trackz .row {
+  padding: 10vh 0 20vh;
+}
+
 /*Objectifs*/
 .objectifs {
   margin: 0 auto;
-  padding: 5vh 0 10vh;
+  padding: 5vh 0 20vh;
 }
 
 .objectifs p {
@@ -566,7 +624,7 @@ header .darktoggle.clicked .toggle::after {
 
 /* Expériences */
 .cv_learning {
-  padding: 5vh 0 10vh;
+  padding: 5vh 0 20vh;
 }
 
 .cv_learning h2.competences {
@@ -700,7 +758,7 @@ header .darktoggle.clicked .toggle::after {
 
 /* Competences*/
 .cv_skill {
-  padding: 5vh 0 10vh;
+  padding: 5vh 0 20vh;
 }
 
 .cv_skill .content {
@@ -794,7 +852,7 @@ header .darktoggle.clicked .toggle::after {
 }
 
 .qui {
-  padding: 5vh 0 10vh;
+  padding: 5vh 0 20vh;
 }
 
 .facts {

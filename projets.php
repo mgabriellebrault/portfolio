@@ -55,7 +55,18 @@
       <div class="col-lg-6 tfe"></div>
     </li>-->
 
-
+    <li class="row clients"> <!-- Track Z -->
+       <div class="col-lg-6 col-xs-12 ">
+        <div class="content">
+          <h2>Track Z</h2>
+          <p>Car la communication est la clée</p>
+          <div class="buttons">
+            <a class="button" href="projets_trackz.php"><h2>Comment?</h2></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 projet_trackz"></div>
+    </li>
     <li class="row scolaires"> <!--ISFSC Quoi-->
       <div class="col-lg-6">
         <div class="content">
@@ -66,7 +77,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6 isfsck"></div>
+      <div class="col-lg-6 projet_isfsck"></div>
     </li>
     <li class="row scolaires"> <!--Endo-->
       <div class="col-lg-6">
@@ -78,7 +89,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6 endo"></div>
+      <div class="col-lg-6 projet_endo"></div>
     </li>
     <li class="row scolaires"> <!--Kanal-->
       <div class="col-lg-6">
@@ -90,7 +101,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6 kanal"></div>
+      <div class="col-lg-6 projet_kanal"></div>
     </li>
 
     </ul>
