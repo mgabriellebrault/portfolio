@@ -17,7 +17,7 @@
 <?php include 'images/waves-white_bkg.php'?>
 <section class="communication_outils bkg"><div class="container">
   <div class="row title">
-    <h2>Trouvons l'outil idéale</h2>
+    <h2>Trouvons l'outil de communication idéale</h2>
     <p>pour travailler ensemble</p>
   </div>
   <div class="row outils"><?php include 'modules/comm_outil.php' ?></div>
@@ -50,7 +50,7 @@
     <div class="col-lg-6"></div>
     <div class="col-lg-6">
       <div class="text"><h1>CV et compétences</h1></div>
-      <button><a class="button" href="cv2020.pdf" id="download_cv" download="CV_MarylineBrault.pdf"><h2>Version PDF</h2></a></button>
+      <button><a class="button" href="cv2021.pdf" id="download_cv" download="CV_MarylineBrault.pdf"><h2>Version PDF</h2></a></button>
     </div>
   </div>
 </div></div></section>
@@ -83,7 +83,7 @@
       </div>
   </div>
   <div class="row projets_button">
-    <a class="button" href="ancienne_vie"><h2>Expériences d'anciennes vies</h2></a>
+    <a class="button" href="ancienne_vie.php"><h2>Expériences d'anciennes vies</h2></a>
   </div>
 </div></section>
 

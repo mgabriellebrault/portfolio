@@ -267,6 +267,10 @@ header .darktoggle.clicked .toggle::after {
   padding: 15px 30px;
 }
 
+.meilleurs_projets p {
+  text-align: center;
+}
+
 .meilleurs_projets .content .buttons {
   margin: 5vh 10%;
   color: #0B0100;
@@ -301,7 +305,6 @@ header .darktoggle.clicked .toggle::after {
   background-repeat: no-repeat;
   width: 100%;
   background-image: url(bkg/nourriciere.jpg);
-  /*projet_nourriciere.jpg*/
 }
 
 .meilleurs_projets .projet_trackz {

@@ -180,6 +180,9 @@ header {
     text-align: center;
     padding: 15px 30px;
   }
+  p{
+    text-align: center;
+  }
   .content .buttons{
     margin: 5vh 10%;
     color: $text;
@@ -196,10 +199,10 @@ header {
       border-radius: 30px;
       width: 100%;
     }
-  }
+  }  
   .projet_foret_nourriciere{
   @include bkg;
-  background-image: url(bkg/nourriciere.jpg);/*projet_nourriciere.jpg*/
+  background-image: url(bkg/nourriciere.jpg);
   }
   .projet_trackz{
     @include bkg;
