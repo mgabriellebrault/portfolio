@@ -34,7 +34,8 @@
       <nav class="navbar row">
         <div class="col-md-4 col-xs-6">
           <a href="index.php">
-            <img id="header_img_dark" src="images/logo.png" alt="logo">
+            <img id="header_img_bright" src="images/logo.png" alt="logo">
+	    <img id="header_img_dark" src="images/dark_logo.png" alt="logo">
           </a>
         </div>
         <div class="col-md-8 col-xs-6 menu"> 

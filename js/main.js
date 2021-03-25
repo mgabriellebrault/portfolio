@@ -45,23 +45,38 @@ function setStyles(element, params) {
   for(let i in params) {element.style.setProperty(i, params[i]);}
 }
 function darkMode() {
-	setStyles(body, {"--bkg": "#070707", "--text": "#EDEDED", "--color1": "#0e2f2f", "--color2": "#548b90", "--bkg_header": "rgba(7,7,7,0.8)", "--bkg_opacity": "rgba(7,7,7,0.6)"});
+	setStyles(body, {"--bkg": "#070707", "--text": "#EDEDED", "--color1": "#0e2f2f", "--color2": "#548b90", "--bkg_header": "rgba(7,7,7,0.7)"});
 	darktoggle.classList.add("clicked");
-//  if (document.getElementById("header_img_dark")) {document.getElementById("header_img_dark").style.display="initial";}
-//  if (document.getElementById("header_img_bright")) {document.getElementById("header_img_bright").style.display="none";}
-//  if (document.getElementById("headermobile_img_dark")) {document.getElementById("headermobile_img_dark").style.display="initial";}
-//  if (document.getElementById("headermobile_img_bright")) {document.getElementById("headermobile_img_bright").style.display="none";}
-//  if (document.getElementById("index_bkg")) {document.getElementById("index_bkg").style.backgroundImage="url(../css/bkg/dark_index.png)";}
-//  if (document.getElementById("cv_bkg")) {document.getElementById("cv_bkg").style.backgroundImage="url(../css/bkg/dark_cv.png)";}
+  if (document.getElementById("header_img_dark")) {document.getElementById("header_img_dark").style.display="initial";}
+  if (document.getElementById("header_img_bright")) {document.getElementById("header_img_bright").style.display="none";}
+  for (const element of document.getElementsByClassName("waves-dark_color")){
+    element.style.display="initial";
+ }
+ for (const element of document.getElementsByClassName("waves-light_color")){
+  element.style.display="none";
+}
+
+//  if (document.getElementsByClassName('.waves-dark_color')).forEach {document.getElementsByClassName("waves-dark_color")}.style.display="initial";}
+//  if (document.getElementsByClassName('.waves-light_color')).forEach {document.getElementsByClassName("waves-light_color")}.style.display="none";}
+
+//  if (document.getElementById("waves-dark")) {document.getElementById("waves-dark").style.display='initial';}
+//  if (document.getElementById("waves-light")) {document.getElementById("waves-light").style.display='none';}
 }
 function lightMode() {
 	setStyles(body, {
-    "--bkg": "#EDEDED", "--text": "#080909", "--color1": "#93B4AD", "--color2": "#77a99e", "--bkg_header": "rgba(237,237,237,0.8)", "--bkg_opacity": "rgba(237,237,237,0.6)"});
+    "--bkg": "#EDEDED", "--text": "#080909", "--color1": "#93B4AD", "--color2": "#77a99e", "--bkg_header": "rgba(237,237,237,0.7)"});
 	darktoggle.classList.remove("clicked");
-//  if (document.getElementById("header_img_dark")) {document.getElementById("header_img_dark").style.display="none";}
-//  if (document.getElementById("header_img_bright")) {document.getElementById("header_img_bright").style.display="initial";}
-//  if (document.getElementById("headermobile_img_dark")) {document.getElementById("headermobile_img_dark").style.display="none";}
-//  if (document.getElementById("headermobile_img_bright")) {document.getElementById("headermobile_img_bright").style.display="initial";}
+  if (document.getElementById("header_img_dark")) {document.getElementById("header_img_dark").style.display="none";}
+  if (document.getElementById("header_img_bright")) {document.getElementById("header_img_bright").style.display="initial";}
+  if (document.getElementsByClassName('.waves-dark_color')).forEach {document.getElementsByClassName("waves-dark_color")}.style.display="none";}
+  if (document.getElementsByClassName('.waves-light_color')).forEach {document.getElementsByClassName("waves-light_color")}.style.display="initial";}
+
+
+
+  //  if (document.getElementById("waves-dark_color")) {document.getElementById("waves-dark_color").style.display="none";}
+//  if (document.getElementById("waves-light_color")) {document.getElementById("waves-light_color").style.display="initial";}
+//  if (document.getElementById("waves-dark")) {document.getElementById("waves-dark").style.display='none';}
+//  if (document.getElementById("waves-light")) {document.getElementById("waves-light").style.display='initial';}
 //  if (document.getElementById("index_bkg")) {document.getElementById("index_bkg").style.backgroundImage="url(../css/bkg/index.png)";}
 //  if (document.getElementById("cv_bkg")) {document.getElementById("cv_bkg").style.backgroundImage="url(../css/bkg/cv.png)";}
 }
