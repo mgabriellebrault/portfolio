@@ -1,4 +1,4 @@
-<div class="waves-light_color">
+<div class="waves-light">
     <style>
         .waves {
         position:relative;
@@ -52,7 +52,7 @@
         </g>
     </svg>
 </div>
-<div class="waves-dark_color">
+<div class="waves-dark">
     <style>
         .waves {
         position:relative;
