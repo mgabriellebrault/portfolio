@@ -53,6 +53,7 @@ function darkMode() {
   if (document.getElementById("github")) {document.getElementById("github").style.display="none";}
   if (document.getElementById("notions_dark")) {document.getElementById("notions_dark").style.display="initial";}
   if (document.getElementById("notions")) {document.getElementById("notions").style.display="none";}
+  if (document.getElementById("isfsck")) {document.getElementById("isfsck").style.backgroundImage="url(css/bkg/isfscquoi_bande_noir.png)";}
   
   var x = document.getElementsByClassName("waves-dark");
   for(i = 0; i < x.length; i++) {x[i].style.display="initial";}
@@ -72,6 +73,7 @@ function lightMode() {
   if (document.getElementById("github")) {document.getElementById("github").style.display="initial";}
   if (document.getElementById("notions_dark")) {document.getElementById("notions_dark").style.display="none";}
   if (document.getElementById("notions")) {document.getElementById("notions").style.display="initial";}
+  if (document.getElementById("isfsck")) {document.getElementById("isfsck").style.backgroundImage="url(css/bkg/isfscquoi_bande.png)";}
 
   var x = document.getElementsByClassName("waves-dark");
   for(i = 0; i < x.length; i++) {x[i].style.display="none";}

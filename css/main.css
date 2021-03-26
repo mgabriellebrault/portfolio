@@ -121,7 +121,7 @@ header {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: var(--bkg_header);
+  background-color: var(--bkg);
   min-height: 10vh;
 }
 
@@ -574,7 +574,7 @@ header .darktoggle.clicked .toggle::after {
 }
 
 .trackz section {
-  background: white;
+  background: var(--bkg);
   position: relative;
   padding: 1rem;
   margin-top: 100vh;

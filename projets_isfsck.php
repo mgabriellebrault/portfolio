@@ -12,7 +12,7 @@
   </div>
 </div></section>
 
-<section><div class="bkg_isfsck"><div class="container">
+<section><div class="bkg_isfsck" id="isfsck"><div class="container">
   <div class="row">
     <div class="col-md-6 col-xs-12">
       <div class="text">
