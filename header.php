@@ -25,7 +25,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Lexend+Giga&display=swap" rel="stylesheet">
   <!-- Homemade CSS -->
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -44,7 +44,6 @@
           <a href="index.php#about"><h2>A propos</h2></a>
           <div class="wrapper">
             <div class="darktoggle" id="darktoggle">
-              <!--<input class="toggle-checkbox" type="checkbox" id="dark-mode-toggle" aria-checked="true">-->
               <label class="toggle" for="dark-mode-toggle" aria-label="Toggle para modo nocturno"></label>
             </div>
           </div>

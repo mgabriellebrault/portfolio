@@ -49,6 +49,10 @@ function darkMode() {
 	darktoggle.classList.add("clicked");
   if (document.getElementById("header_img_dark")) {document.getElementById("header_img_dark").style.display="initial";}
   if (document.getElementById("header_img_bright")) {document.getElementById("header_img_bright").style.display="none";}
+  if (document.getElementById("github_dark")) {document.getElementById("github_dark").style.display="initial";}
+  if (document.getElementById("github")) {document.getElementById("github").style.display="none";}
+  if (document.getElementById("notions_dark")) {document.getElementById("notions_dark").style.display="initial";}
+  if (document.getElementById("notions")) {document.getElementById("notions").style.display="none";}
   
   var x = document.getElementsByClassName("waves-dark");
   for(i = 0; i < x.length; i++) {x[i].style.display="initial";}
@@ -64,7 +68,10 @@ function lightMode() {
 	darktoggle.classList.remove("clicked");
   if (document.getElementById("header_img_dark")) {document.getElementById("header_img_dark").style.display="none";}
   if (document.getElementById("header_img_bright")) {document.getElementById("header_img_bright").style.display="initial";}
-
+  if (document.getElementById("github_dark")) {document.getElementById("github_dark").style.display="none";}
+  if (document.getElementById("github")) {document.getElementById("github").style.display="initial";}
+  if (document.getElementById("notions_dark")) {document.getElementById("notions_dark").style.display="none";}
+  if (document.getElementById("notions")) {document.getElementById("notions").style.display="initial";}
 
   var x = document.getElementsByClassName("waves-dark");
   for(i = 0; i < x.length; i++) {x[i].style.display="none";}
