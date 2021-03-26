@@ -1,7 +1,8 @@
 <div class="col-3"><img src="images/icon/atom.png" alt="Atom"></div>
 <div class="col-3"><img src="images/icon/bootstrap.png" alt="Bootstrap"></div>
 <div class="col-3"><img src="images/icon/filezilla.png" alt="FileZilla"></div>
-<div class="col-3"><img src="images/icon/github.png" alt="GitHub"></div>
+<div class="col-3" id="github"><img src="images/icon/github.png" alt="GitHub"></div>
+<div class="col-3" id="github_dark"><img src="images/icon/github_dark.png" alt="GitHub"></div>
 <div class="col-3"><img src="images/icon/laravel.png" alt="Laravel"></div>
 <div class="col-3"><img src="images/icon/wordpress.png" alt="Wordpress"></div>
 <div class="col-3"><img src="images/icon/ubuntu.png" alt="Ubuntu"></div>

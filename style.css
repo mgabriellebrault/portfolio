@@ -106,7 +106,7 @@ body .title {
 body .title h2 {
   margin: 5vh 5%;
 }
-#header_img_dark, .waves-dark{
+#header_img_dark, .waves-dark, #github_dark, #notions_dark{
   display: none;
 }
 
